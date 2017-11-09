@@ -1,0 +1,249 @@
+@font-family: 'Montserrat', sans-serif;
+@font-family: 'Roboto', sans-serif;
+@font-family: 'Roboto Condensed', sans-serif;
+
+
+body {
+    font-family: 'Montserrat';
+    background-color: #efefef;
+    height: 100vh;
+    width: 100%;
+    color: #000;
+}
+
+/* Media Quires */
+@media (min-width: 768px){
+
+.container {
+    max-width: 860px !important;
+}
+
+.req-amount{height: 150%;}
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 100% !important;
+}
+}
+
+/*Media Quires */
+
+
+.status-bar{
+	height: 8%;
+	width: 100%;
+	background-color: #fff;
+    border: 1px solid #c8c7ca;
+    box-shadow: 2px 4px 100px -12px #00000078;
+}
+
+.status-head i {
+float: left;
+    vertical-align: middle;
+    display: flex;
+    padding-top: 0px;
+    padding-right: 40px;
+    font-size: 44px;
+    cursor: pointer;
+}
+
+
+.status-head span h2 {
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+
+.status-head {
+    padding-top: 36px;
+}
+
+.tab-evname {
+    width: 100%;
+    height: 14%;
+}
+
+.event {
+	background-color: #3e82f0;
+    width: 100%;
+    border-radius: 12px;
+    height: 125%;
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-right: 55px;
+    margin-top: 9%;
+    box-shadow: 2px 4px 100px -12px #00000078;
+}
+
+.event h4 {
+    font-size: 26px;
+    color: #b7cbfd;
+    padding-bottom: 12px;
+}
+
+.event h2 {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+hr.hr.hr-custom {
+    background-color: #82b1f7;
+    border: 2px solid #82b1f7;
+    width: 100%;
+}
+
+.tab-amount{
+	width: 100%;
+    height: 14%;
+    margin-top: 12%;
+}
+
+.req-amount{
+	background-color: #fff;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #9e9e9e;
+    height: 125%;
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-right: 55px;
+    margin-top: 9%;
+    box-shadow: 2px 4px 100px -12px #00000078;
+}
+
+.req-amount h4 {
+    color: #c2c5cf;
+    font-size: 25px;
+}
+
+.amount-box {
+    height: 125px;
+    vertical-align: middle;
+    padding-top: 24px;
+    background-color: #edf2f8;
+    padding-left: 25px;
+    border-radius: 14px;
+}
+
+.amount-box h1 {
+    color: #b7b5b5;
+    font-size: 58px;
+    font-weight: 300;
+}
+
+.amount-box h1 span {
+    color: #000;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+
+.nav-amount {
+    background-color: #3e82f0;
+    color: #fff;
+    font-size: 54px;
+    position: absolute;
+    padding: 18px;
+    border-radius: 60px;
+    width: 11%;
+    height: 33%;
+    padding-top: 16px;
+    padding-left: 23px;
+    margin-top: -50px;
+    padding-right: 0px;
+}
+
+.nav-amount i {margin-right: 9px;}
+
+hr.hr.hr-seprator {
+    border-top: 3px solid rgba(0,0,0,.1);
+    margin-top: 12%;
+    margin-bottom: 0px;
+}
+
+.person-donation {
+    background-color: #fff;
+    height: 100vh;
+    vertical-align: middle;
+    padding-top: 5%;
+}
+
+.donation-amount {
+    float: right;
+    vertical-align: middle;
+    display: inline-flex;
+    padding-top: 4%;
+}
+
+.donation-details {
+    float: left;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.donation-details img {
+    width: 100%;
+    display: inline-flex;
+}
+
+.donation-details span h4 {
+    font-size: 2.5em;
+    margin-left: 16%;
+    padding-top: 17%;
+    width: 100%;
+}
+
+.donation-amount p {
+    font-size: 2.5em;
+    padding-right: 35px;
+}
+
+.donation-amount span i {
+    float: right;
+    font-size: 3.5em;
+    color: #4286f5;
+}
+
+
+hr.hr.hr-donation {
+    margin-top: 19%;
+    border-top: 2px solid #cdcdcd;
+}
+
+.button-fix {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    margin-top: -103%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+button.btn.btn-default.custom-style {
+    width: 87%;
+    height: 8%;
+    font-size: 2.5em;
+    color: #fff;
+    background-color: #34aa54;
+    box-shadow: 2px 2px 100px 2px #34aa54b3;
+    border-radius: 10px;
+    position: relative;
+}
+
+.back {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    position: fixed;
+    margin-top: -15%;
+    filter: blur(56px);
+    -o-filter:blur(56px);
+    -ms-filter:blur(56px);
+    -moz-filter:blur(56px);
+    -webkit-filter: blur(56px);
+}
